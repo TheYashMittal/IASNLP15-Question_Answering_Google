@@ -1,0 +1,11 @@
+
+directory = os.getcwd()
+	with open(directory + "\\" + "train_5500.label", "r") as f:
+		fc = f.read().split('\n')
+		questions = []
+		for row in fc: 
+			fc = row.split()
+			questions.append(ele.lower for ele in fc[1:]))
+		a = list(set(a))
+		print len(a)
+
